@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E7D6FB"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -15,7 +16,7 @@
         android:scaleX="1"
         android:scaleY="1"
         android:text="Название"
-        android:textSize="20sp"
+        android:textSize="26sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/artCity"
@@ -29,7 +30,7 @@
         android:scaleX="1"
         android:scaleY="1"
         android:text="Город"
-        android:textSize="16sp"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/artCountry"
         app:layout_constraintStart_toStartOf="@+id/artCountry"
         app:layout_constraintTop_toBottomOf="@+id/artTitle" />
@@ -42,7 +43,7 @@
         android:scaleX="1"
         android:scaleY="1"
         android:text="Страна"
-        android:textSize="16sp"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout3"
         app:layout_constraintHorizontal_bias="0.481"
         app:layout_constraintStart_toStartOf="@+id/linearLayout3"
